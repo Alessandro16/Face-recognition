@@ -29,6 +29,8 @@ models/*.pb
 # Ignore heavy processed videos, but keep the folder
 test_results/*
 !.gitkeep
+dataset/*
+!dataset/.gitkeep
 
 # --- OS Specific ---
 .DS_Store
