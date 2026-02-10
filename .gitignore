@@ -1,0 +1,35 @@
+# --- PyCharm & IDEs ---
+.idea/
+.vscode/
+*.swp
+*.iml
+
+# --- Python Environment ---
+.venv/
+env/
+venv/
+ENV/
+bin/
+lib/
+include/
+
+# --- Python Cache ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- DeepFace & Models ---
+# Model weights are downloaded to this folder by default on Windows
+.deepface/
+# If the models are inside the project
+models/*.h5
+models/*.pb
+
+# --- Project Specific ---
+# Ignore heavy processed videos, but keep the folder
+test_results/*
+!.gitkeep
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db
